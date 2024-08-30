@@ -1,6 +1,7 @@
 import { LangContext } from "@contexts/LangContext";
 import { ThemeContext } from "@contexts/ThemeContext";
 import { useContext } from "react";
+import { ThemeItem } from "@contexts/ThemeContext";
 
 export const Header = () => {
   const { theme } = useContext(ThemeContext);
